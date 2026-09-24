@@ -1,0 +1,20 @@
+
+.signup_tab{
+    width: 600px;
+    padding: 30px;
+    margin: 50px auto;
+    background-color: rgb(108, 112, 116);
+    border-radius: 3rem;
+    border: 0.1rem rgb(95, 85, 85) solid;
+    box-shadow: inset;
+
+}
+h3{
+    text-align: center;
+}
+.register{
+    align-items: center;
+}
+.input{
+    width: 500px;
+}
