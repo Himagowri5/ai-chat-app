@@ -79,7 +79,7 @@ function ChatWindow(){
 
         {!isLoggedIn ? (
             <>
-                <div className="dropDownItem"onClick={() => {setAuthPage("signup");setIsOpen(false);} }><i className="fa-solid fa-right-to-bracket"></i>Login</div>
+                <div className="dropDownItem"onClick={() => {setAuthPage("login");setIsOpen(false);} }><i className="fa-solid fa-right-to-bracket"></i>Login</div>
                 <div className="dropDownItem" onClick={() => {setAuthPage("signup");setIsOpen(false);}}><i className="fa-solid fa-user-plus"></i>Signup</div>
             </>
         ) : (
