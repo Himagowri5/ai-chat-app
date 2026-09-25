@@ -14,7 +14,7 @@ function Signup() {
         try {
 
             const response = await fetch(
-                "http://localhost:8080/api/auth/signup",
+                "https://ai-chat-app-b4vm.onrender.com/api/auth/signup",
                 {
                     method: "POST",
                     headers: {

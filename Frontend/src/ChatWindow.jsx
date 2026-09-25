@@ -23,7 +23,7 @@ function ChatWindow(){
             }),credentials: "include"
         }
         try{
-           const response= await fetch("http://localhost:8080/api/chat",options);
+           const response= await fetch("https://ai-chat-app-b4vm.onrender.com/api/chat",options);
            const res = await response.json();
             console.log(res);
             setReplay(res.reply);
@@ -88,7 +88,7 @@ function ChatWindow(){
                 onClick={async () => {
                 try {
                 const response = await fetch(
-                    "http://localhost:8080/api/auth/logout",
+                    "https://ai-chat-app-b4vm.onrender.com/api/auth/logout",
                     {
                         method: "POST",
                         credentials: "include"

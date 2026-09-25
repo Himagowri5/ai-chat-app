@@ -26,7 +26,7 @@ function Sidebar() {
 
         try {
             const response = await fetch(
-                "http://localhost:8080/api/thread",
+                "https://ai-chat-app-b4vm.onrender.com/api/thread",
                 {
                     credentials: "include"
                 }
@@ -72,7 +72,7 @@ function Sidebar() {
         try {
 
             const response = await fetch(
-                `http://localhost:8080/api/thread/${newThreadID}`,
+                `https://ai-chat-app-b4vm.onrender.com/api/thread/${newThreadID}`,
                 {
                     credentials: "include"
                 }
@@ -100,7 +100,7 @@ function Sidebar() {
         try {
 
             const response = await fetch(
-                `http://localhost:8080/api/thread/${ThreadId}`,
+                `https://ai-chat-app-b4vm.onrender.com/api/thread/${ThreadId}`,
                 {
                     method: "DELETE",
                     credentials: "include"
